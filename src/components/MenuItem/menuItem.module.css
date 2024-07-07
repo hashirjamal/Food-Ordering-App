@@ -1,0 +1,55 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+.info span{
+    color: #890404;
+    font-weight: 700;
+}
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.qty span{
+    /* border: 1px solid gray; */
+    /* padding: 0rem 0.5rem; */
+    width: 21%;
+}
+
+.qty span input{
+    /* background: none;     */
+    width: 100%;
+    padding: 4px;
+    text-align: center;
+    border: none;
+    background-color: whitesmoke;
+
+    /* outline: none; */
+}
+
+.actions .qty{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.actions button{
+    background-color: #890404;
+    color: whitesmoke;
+    padding: 0.5rem 3.5rem;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+

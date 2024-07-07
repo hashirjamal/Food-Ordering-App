@@ -1,0 +1,26 @@
+.welcomeBox{
+    background-color: #444343;
+    width:min(500px, 100%);
+    height: max(15rem,auto);
+    /* min-width: 100%; */
+    /* height: 60%; */
+    padding: 2rem;
+    margin: auto;
+    margin-top: -60px;
+    /* border: 2px solid white; */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    /* position: absolute; */
+    position:relative;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 60%;
+    display: flex;
+    /* left: 27%; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.welcomeBox p, .welcomeBox h2{
+    text-align: center  ;
+}

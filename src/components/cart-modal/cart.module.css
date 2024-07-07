@@ -1,0 +1,58 @@
+.cartBox{
+    width: 100%;
+    height: 100vh;
+    top: 0%;
+    
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    overflow-y: scroll;
+    
+}
+.closeModal{
+    display: none;
+}
+
+.modal{
+    width: 40%;
+    /* height: 40%; */
+    margin: 31vh auto;
+    background-color: rgb(230, 230, 230);
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.btnDiv{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding: 2rem 0;
+    background: none;
+    
+}
+.btnDiv button{
+    border-radius: 12px;
+    color: whitesmoke;
+    padding: 0.7rem 2rem;
+    background-color: brown;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.btnDiv button:last-child{
+    background-color: whitesmoke;
+    border: 1px solid brown;
+    color: brown;
+}
+.empty{
+    text-align: center;
+    /* width: 40%; */
+    align-self: center;
+    height: 15vh;
+    color: #490000;
+    font-weight: 700;
+    font-size: larger;
+}

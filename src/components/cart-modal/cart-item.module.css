@@ -1,0 +1,23 @@
+.item{
+    /* height: 5vh; */
+    border-bottom: 2px solid brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4px;
+    align-items: center;
+}
+.itemInfo{
+
+}
+.set-qty button{
+    border: 1px solid #a1a1a1;
+    padding: 0.3rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 0.3rem;
+}
+
+.itemInfo span{
+    display: flex;
+    gap: 2rem;
+}

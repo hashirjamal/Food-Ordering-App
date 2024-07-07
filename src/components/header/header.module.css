@@ -1,0 +1,33 @@
+.navbar{
+    width: 100%;
+   
+    /* height: 3rem; */
+    background-color: #570101;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    position: absolute;
+    top: 0%;
+}
+.cartDiv{
+    margin: 0 2rem;
+    background-color: #490000;
+    color: whitesmoke;
+    border-radius: 32px;
+    padding: 1rem;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   
+}
+.cartDiv:hover{
+    background-color: whitesmoke;
+    color: #490000;
+}

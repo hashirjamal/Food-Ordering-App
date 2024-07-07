@@ -1,0 +1,7 @@
+.menuBox{
+    background-color: #e3e3e3;
+    width: min(900px,100%);
+    margin: 3rem auto;
+    border-radius: 8px;
+    padding: 2rem;
+}
